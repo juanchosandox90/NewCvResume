@@ -58,7 +58,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="24dp"
         android:layout_marginStart="24dp"
-        android:background="@color/holo_blue_dark"
+        android:background="@drawable/primary_button"
         android:padding="12dp"
         android:text="@string/sign_in"
         android:textColor="@android:color/white"

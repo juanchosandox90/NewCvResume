@@ -3,19 +3,15 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/holo_blue_dark</item>
-        <item name="colorPrimaryDark">@color/holo_blue_dark</item>
+        <item name="colorPrimary">@color/md_blue_700</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
         <item name="colorAccent">@color/bright_foreground_disabled_holo_dark</item>
-    </style>
-
-    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@drawable/launch_screen</item>
     </style>
 
     <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@android:color/white</item>
         <item name="tabIndicatorHeight">3dp</item>
-        <item name="tabBackground">@color/holo_blue_dark</item>
+        <item name="tabBackground">@color/md_blue_700</item>
         <item name="tabTextAppearance">@style/AppTheme</item>
         <item name="tabSelectedTextColor">@android:color/white</item>
     </style>

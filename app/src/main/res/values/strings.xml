@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NewCvResume</string>
+    <string name="app_name">Sandroid</string>
     <string name="success">Success!</string>
     <string name="failed">Failed!</string>
     <string name="enter_email_address">Enter Email Address!</string>
@@ -19,4 +19,5 @@
     <string name="fragmentthree">Fragment Three</string>
     <string name="fragmentfour">Fragment Four</string>
     <string name="fragmentfive">Fragment Five</string>
+    <string name="logoapp">logo_app</string>
 </resources>

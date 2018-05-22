@@ -31,6 +31,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
         } else if (i == R.id.link_login) {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 
@@ -58,6 +59,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
                         Toast.makeText(applicationContext, getString(R.string.success) + user.email!!, Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
+                        finish()
                     } else {
                         Toast.makeText(applicationContext, getString(R.string.failed), Toast.LENGTH_SHORT).show()
                     }

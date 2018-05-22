@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                              xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
                                              android:layout_width="match_parent"
                                              android:layout_height="match_parent">
 
@@ -58,7 +59,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="24dp"
         android:layout_marginStart="24dp"
-        android:background="@color/holo_blue_dark"
+        android:background="@drawable/primary_button"
         android:padding="12dp"
         android:stateListAnimator="@null"
         android:text="@string/create_account"
@@ -67,7 +68,8 @@
         app:layout_constraintEnd_toEndOf="@+id/link_login"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/link_login"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"/>
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+        tools:targetApi="lollipop"/>
 
     <TextView
         android:id="@+id/link_login"

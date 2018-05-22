@@ -15,7 +15,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/holo_blue_dark"
+            android:background="@color/md_blue_700"
             app:contentInsetStartWithNavigation="0dp"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme"/>
@@ -51,7 +51,7 @@
         android:layout_marginStart="8dp"
         android:stateListAnimator="@null"
         android:text="@string/sign_out"
-        android:textColor="@color/holo_blue_dark"
+        android:textColor="@color/md_blue_700"
         app:layout_constraintBottom_toBottomOf="@+id/view_pager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>

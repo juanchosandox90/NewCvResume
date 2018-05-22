@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         if (i == R.id.btn_email_create_account) {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
+            finish()
         } else if (i == R.id.btn_email_sign_in) {
             signIn(edtEmail.text.toString(), edtPassword.text.toString())
         }
@@ -44,6 +45,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                         Toast.makeText(applicationContext, getString(R.string.success), Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, TabsActivity::class.java)
                         startActivity(intent)
+                        finish()
                     } else {
                         Toast.makeText(applicationContext, getString(R.string.failed), Toast.LENGTH_SHORT).show()
                     }
