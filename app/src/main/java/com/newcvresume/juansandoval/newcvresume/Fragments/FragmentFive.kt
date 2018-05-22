@@ -15,6 +15,6 @@ class FragmentFive : Fragment() {
             inflater!!.inflate(R.layout.fragment_five, container, false)
 
     companion object {
-        fun newInstance(): FragmentOne = FragmentOne()
+        fun newInstance(): FragmentFive = newInstance()
     }
 }
