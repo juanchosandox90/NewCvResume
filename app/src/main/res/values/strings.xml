@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NewCvResume</string>
+    <string name="success">Success!</string>
+    <string name="failed">Failed!</string>
+    <string name="enter_email_address">Enter Email Address!</string>
+    <string name="enter_password">Enter Password!</string>
+    <string name="password_short">Password too short, enter minimum 6 characters!</string>
+    <string name="signed_out">Signed Out!</string>
+    <string name="verfied">Verfied!</string>
+    <string name="firebase_id_message">Firebase User ID: </string>
+    <string name="user_email_desc">User Email: </string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="fragmentone">Fragment One</string>
+    <string name="framgenttwo">Framgent Two</string>
+    <string name="fragmentthree">Fragment Three</string>
+    <string name="fragmentfour">Fragment Four</string>
+    <string name="fragmentfive">Fragment Five</string>
+</resources>

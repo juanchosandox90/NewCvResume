@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "557390991563",
+    "firebase_url": "https://newcvresume.firebaseio.com",
+    "project_id": "newcvresume",
+    "storage_bucket": "newcvresume.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557390991563:android:153967aad86e6935",
+        "android_client_info": {
+          "package_name": "com.newcvresume.juansandoval.newcvresume"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557390991563-nmkqnrj7kh0cldt00ei1vehctaf6vbbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newcvresume.juansandoval.newcvresume",
+            "certificate_hash": "b973945528a2e74830da1cce7a01952aa34a6a62"
+          }
+        },
+        {
+          "client_id": "557390991563-g8f555un2esb6pmukpvgbsk54othlan5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSC618kwXz0OHbi6GssAsFxat91SZDuLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557390991563-g8f555un2esb6pmukpvgbsk54othlan5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
