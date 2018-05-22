@@ -62,6 +62,7 @@ class TabsActivity : AppCompatActivity(), View.OnClickListener {
         mAuth!!.signOut()
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
+        finish()
     }
 
     private fun initToolbar() {
