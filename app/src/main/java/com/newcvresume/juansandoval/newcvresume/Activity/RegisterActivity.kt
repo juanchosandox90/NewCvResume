@@ -35,6 +35,13 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
+
     private fun createAccount(email: String, password: String) {
         if (!validateForm(email, password)) {
             return
