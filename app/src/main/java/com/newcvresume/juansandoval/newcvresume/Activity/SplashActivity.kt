@@ -9,7 +9,7 @@ import com.newcvresume.juansandoval.newcvresume.R
 
 class SplashActivity : AppCompatActivity() {
     private var mDelayHandler: Handler? = null
-    private val SPLASH_DELAY: Long = 2000 //2 seconds
+    private val SPLASH_DELAY: Long = 2000
     internal val mRunnable: Runnable = Runnable {
         if (!isFinishing) {
 
@@ -23,10 +23,8 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.splash_screen)
 
-        //Initialize the Handler
         mDelayHandler = Handler()
 
-        //Navigate with delay
         mDelayHandler!!.postDelayed(mRunnable, SPLASH_DELAY)
 
     }
